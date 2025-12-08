@@ -1,6 +1,6 @@
-#SQL DATA CLEANING PROJECT(SALES DATASET)
+# SQL DATA CLEANING PROJECT(SALES DATASET)
 
-##TABLE OF CONTENTS
+## TABLE OF CONTENTS
 - [Project Overview](#project-overview)
 - [Objectives](#objectives)
 - [Data Source](#data-source)
@@ -8,12 +8,12 @@
 - [Key SQL concepts used](#key-sql-concepts-used)
 - [Final results](#final-results)
 
-###PROJECT OVERVIEW
+### PROJECT OVERVIEW
 
 This project contains my first full data-cleaning workflow in SQL.
 I used SQL Server to clean, transform, and standardize a sales dataset downloaded from Kaggle.
 
-###OBJECTIVES
+### OBJECTIVES
 
 * Clean date fields
 * Standardize text values
@@ -22,12 +22,12 @@ I used SQL Server to clean, transform, and standardize a sales dataset downloade
 * Rename columns for clarity
 * Drop outdated or redundant columns
 
-###DATA SOURCE
+### DATA SOURCE
 
 Sales dataset from Kaggle
 Imported as: dbo.Book1
 
-###STEP BY STEP CLEANING PROCESS 
+### STEP BY STEP CLEANING PROCESS 
 
 SELECT *
 FROM [dbo].[Book1]
@@ -117,7 +117,7 @@ EXEC sp_rename '[dbo].[Book1].YEAR_ID', 'YEAR', 'COLUMN'
 EXEC sp_rename '[dbo].[Book1].ADDRESSLINE1', 'ADDRESS', 'COLUMN'
 RENAMING COLUMN HEADERS 
 
-###FINAL RESULTS 
+### FINAL RESULTS 
 
 Cleaned date fields
 Standardized territory and country names
@@ -125,7 +125,7 @@ Improved numerical consistency (rounded to 1 decimal)
 Improved schema readability
 Removed redundant fields
 
-###KEY SQL CONCEPTS USED
+### KEY SQL CONCEPTS USED
 
 *ALTER TABLE
 *UPDATE
