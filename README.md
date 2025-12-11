@@ -119,18 +119,18 @@ RENAMING COLUMN HEADERS
 
 ### FINAL RESULTS 
 
-Cleaned date fields
-Standardized territory and country names
-Improved numerical consistency (rounded to 1 decimal)
-Improved schema readability
-Removed redundant fields
+- Cleaned date fields
+- Standardized territory and country names
+- Improved numerical consistency (rounded to 1 decimal)
+- Improved schema readability
+- Removed redundant fields
 
 ### KEY SQL CONCEPTS USED
 
-*ALTER TABLE
-*UPDATE
-*CAST
-*ROUND
-*CASE WHEN
-*sp_rename
-*SELECT 
+* ALTER TABLE
+* UPDATE
+* CAST
+* ROUND
+* CASE WHEN
+* sp_rename
+* SELECT 
